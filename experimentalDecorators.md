@@ -1,9 +1,14 @@
 ---
-title: 对修饰器的实验支持是一项将在将来版本中更改的功能。设置+"experimentalDecorators"+选项以删除此警告。
+title: 对修饰器的实验支持...experimentalDecorators
 categories: Exceptions
 ---
 
+## 异常描述
+
+对修饰器的实验支持是一项将在将来版本中更改的功能。设置+"experimentalDecorators"+选项以删除此警告。
+
 ## 异常场景
+
 VSCode  添加的Vue 组件。
 
 ```vue
@@ -29,4 +34,4 @@ export default class HelloWorld extends Vue {
 
 ##### 参考资料
 
-https://blog.csdn.net/weixin_33834075/article/details/88625659  VSCode中"experimentalDecorators"设置问题
+https://blog.csdn.net/weixin_33834075/article/details/88625659 
