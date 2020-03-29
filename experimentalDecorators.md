@@ -26,11 +26,12 @@ export default class HelloWorld extends Vue {
 {
   "compilerOptions": {
     "experimentalDecorators": true,
-  }
+  },
+  "include": ["src/**/*.tsx"],
 }
 ```
 
-
+说明：include 一定要包含 tsx文件所在的目录
 
 ##### 参考资料
 
