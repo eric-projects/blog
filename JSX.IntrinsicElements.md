@@ -54,4 +54,20 @@ declare global {
 
 
 
- 
+ **更新**：
+
+项目下建立types 放入.d.ts文件
+
+然后添加到 tsconfig.json 的include中
+
+```
+---types
+  --- shims-tsx.d.ts
+  --- shims-vue.d.ts
+  
+ "include": [
+    xxx
+    "types/**/*.ts"
+  ],
+```
+

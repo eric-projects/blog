@@ -33,6 +33,27 @@ export default class HelloWorld extends Vue {
 
 说明：include 一定要包含 tsx文件所在的目录
 
+
+
+**更新**：
+
+项目下建立types 放入.d.ts文件
+
+然后添加到 tsconfig.json 的include中
+
+```
+---types
+  --- shims-tsx.d.ts
+  --- shims-vue.d.ts
+  
+ "include": [
+    xxx
+    "types/**/*.ts"
+  ],
+```
+
+
+
 ##### 参考资料
 
 https://blog.csdn.net/weixin_33834075/article/details/88625659 
